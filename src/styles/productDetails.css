@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.productDetails {
+  font-family: 'Raleway', sans-serif;
+  background-image: url('../img/background1.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-y: 100vh;
+  width: 100%;
+  height: 100vh
+}
+
+h1{
+  font-size: 3rem;
+  color: #2c3531;
+  font-weight: bolder;
+  padding: 20px;
+  text-align: center
+}
+
+.detail {
+  background-color: rgba(234, 209, 209, 0.5)
+}
+
+.li{
+  text-align: center
+}
+ul{
+  display: flex;
+  flex-direction: column
+}

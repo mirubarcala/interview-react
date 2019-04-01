@@ -1,0 +1,102 @@
+{
+  "sign_in": [
+    {
+      "name": "jhjh",
+      "lastName": "ooioi",
+      "email": "mi@gm.com",
+      "id": 1
+    },
+    {
+      "name": "mir",
+      "lastName": "mir",
+      "email": "mirubarcala@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "miranda",
+      "lastName": "barcala",
+      "email": "mirubarcala@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "miranda",
+      "lastName": "barcala",
+      "email": "mirubarcala@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "miranda",
+      "lastName": "barcala",
+      "email": "mirubarcala@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "miranda",
+      "lastName": "barcala",
+      "email": "mirubarcala@gmail.com",
+      "id": 6
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "sku": 512534124,
+      "name": "Optical mouse",
+      "price": 512,
+      "image": "",
+      "description": "A mouse that uses light to detect movement",
+      "category": "computing",
+      "size": "5.94 x 2.68 x 1.42 (W x H x D)",
+      "brand": "logiTech",
+      "stock": "AVAILABLE"
+    },
+    {
+      "id": 2,
+      "sku": 35252355,
+      "name": "Keyboard",
+      "price": 632,
+      "image": "",
+      "description": "typewriter-style device which uses an arrangement of buttons or keys to act as mechanical levers or electronic switches.",
+      "category": "computing",
+      "size": "5.94 x 2.68 x 1.42 (W x H x D)",
+      "brand": "logiTech",
+      "stock": "OUT OF STOCK"
+    },
+    {
+      "id": 3,
+      "sku": 754745726,
+      "name": "Headphones",
+      "price": 7334,
+      "image": "",
+      "description": "pair of small loudspeaker drivers worn on or around the head over a user's ears",
+      "category": "computing",
+      "size": "5.94 x 2.68 x 1.42 (W x H x D)",
+      "brand": "logiTech",
+      "stock": "AVAILABLE"
+    },
+    {
+      "id": 4,
+      "sku": 6327237255,
+      "name": "Microphone",
+      "price": 543,
+      "image": "",
+      "description": "A device that converts sound waves into analogous electrical waves",
+      "category": "computing",
+      "size": "5.94 x 2.68 x 1.42 (W x H x D)",
+      "brand": "logiTech",
+      "stock": "AVAILABLE"
+    },
+    {
+      "id": 5,
+      "sku": 6327237256,
+      "name": "Mouse Pad",
+      "price": 120,
+      "image": "",
+      "description": "A thin rubber or plastic cushion of about about 12 square inches or less with a plastic or textured surface",
+      "category": "computing",
+      "size": "5.94 x 2.68 x 1.42 (W x H x D)",
+      "brand": "logiTech",
+      "stock": "OUT OF STOCK"
+    }
+  ]
+}
