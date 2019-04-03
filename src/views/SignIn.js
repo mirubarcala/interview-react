@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Link, Redirect } from "react-router-dom
 
 import '../styles/App.css';
 
-
 class SignIn extends Component {
   constructor(props){
     super(props);
@@ -76,10 +75,9 @@ class SignIn extends Component {
         <div className="App">
             <div className="main">
             <header className="header">
-                <p className="title">TECHBOX</p>
-                
+              <p className="title">T E C H B O X</p>
             </header>
-            <section>
+            <section className="logInBox">
                 <div className="logIn">
                 <p className="logInText">LOG IN TO CHECK OUR CATALOG</p>
                 <form id="doSignIn" onSubmit={this.handleSubmit}>
@@ -113,7 +111,7 @@ class SignIn extends Component {
                     
                     {errors.email   && <div className="error">{errors.email}</div> }
                     
-                    <button className="button" type="submit">LOG IN</button>
+                    <button className="logInButton" type="submit">LOG IN</button>
                 </form>
                 </div>
             </section>

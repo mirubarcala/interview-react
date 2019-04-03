@@ -5,36 +5,6 @@
       "lastName": "ooioi",
       "email": "mi@gm.com",
       "id": 1
-    },
-    {
-      "name": "mir",
-      "lastName": "mir",
-      "email": "mirubarcala@gmail.com",
-      "id": 2
-    },
-    {
-      "name": "miranda",
-      "lastName": "barcala",
-      "email": "mirubarcala@gmail.com",
-      "id": 3
-    },
-    {
-      "name": "miranda",
-      "lastName": "barcala",
-      "email": "mirubarcala@gmail.com",
-      "id": 4
-    },
-    {
-      "name": "miranda",
-      "lastName": "barcala",
-      "email": "mirubarcala@gmail.com",
-      "id": 5
-    },
-    {
-      "name": "miranda",
-      "lastName": "barcala",
-      "email": "mirubarcala@gmail.com",
-      "id": 6
     }
   ],
   "products": [
@@ -97,6 +67,19 @@
       "size": "5.94 x 2.68 x 1.42 (W x H x D)",
       "brand": "logiTech",
       "stock": "OUT OF STOCK"
+    },
+    {
+      "id": 6,
+      "sku": 6327237257,
+      "name": "Web Cam",
+      "price": 300,
+      "image": "",
+      "description": "Stream and record vibrant, true-to-life video. The glass lens and full HD 1080p captures the most exciting details, ",
+      "category": "computing",
+      "size": "5.94 x 2.68 x 1.42 (W x H x D)",
+      "brand": "logiTech",
+      "stock": "OUT OF STOCK"
     }
+
   ]
 }

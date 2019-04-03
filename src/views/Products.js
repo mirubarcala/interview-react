@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/products.css'
 import { Link } from 'react-router-dom';
+import broken_img from '../img/broken_img.png'
 
 
 class Products extends Component {
@@ -39,39 +40,43 @@ class Products extends Component {
     return (
       <div className="products">
         <header className="productsHeader">
-          <h1>OUR PRODUCTS</h1>
-
+          <h1 className="headerTitle">OUR PRODUCTS</h1>
           <input
+            className="searchInput"
             type="text"
             value={this.state.searchString}
             ref="search"
             onChange={this.handleChange}
             placeholder="Search products"
           />
-          
         </header>
-        <ul className="productCards">
-          {_products.map(product =>
-            <li> 
-              <div className="product">
-                <h2>
-                 {product.name} 
-                </h2>
-                <h6>
-                  <br/>
-                  ID: {product.id}
-                  <br/>
-                  DESCRIPTION: {product.description}
-                  <br/>
-                  PRICE: {product.price}$
-                </h6>
-                <Link to={"/products/" + product.id} style={{textDecoration: "none"}}>
-                  <button>View Details</button>
-                </Link>
-              </div> 
-            </li>
-          )}
-        </ul>
+        <section >
+          <div >
+            <ul className="productsList">
+              {_products.map(product =>
+                <li className="productCard"> 
+                  <div className="productCard">
+                    <h4 id="name">
+                    {product.name} 
+                    </h4>
+                    <h6 id="description">
+                      <br/>
+                      ID: {product.id}
+                      <br/>
+                      DESCRIPTION: {product.description}
+                      <br/>
+                      PRICE: {product.price}$
+                    </h6>
+                    <Link to={"/products/" + product.id} style={{textDecoration: "none"}}>
+                      <button id="detailsButton">View Details</button>
+                    </Link>
+                  </div> 
+                  <img className="img" src={broken_img} alt="broken img"/>
+                </li>
+              )}
+            </ul>
+          </div>
+        </section>
       </div>
     );
   }

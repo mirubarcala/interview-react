@@ -28,11 +28,13 @@ class ProductDetail extends Component {
     return (
       <div className="productDetails">
         <div className="detail">
-          <h1> {name}</h1>
-          <Link to="/products">
-            <button>BACK TO PRODUCTS</button>
-          </Link>
-          <ul>
+          <header className="detailsHeader">
+            <h1> {name}</h1>
+            <Link to="/products" className="backButton">
+              <button >BACK TO PRODUCTS</button>
+            </Link>
+          </header>
+          <ul className="details">
             <li>SKU: {sku}</li>
             <li>Price: {price}</li>
             <li>Image: {image}</li>
